@@ -63,10 +63,32 @@ void Error_Handler(void);
 #define EN_GLOBAL_RESET_GPIO_Port GPIOI
 #define DEBUG_TX_OBC_Pin GPIO_PIN_8
 #define DEBUG_TX_OBC_GPIO_Port GPIOE
+#define CS_MAG_Pin GPIO_PIN_9
+#define CS_MAG_GPIO_Port GPIOD
+#define IMU_MOSI_Pin GPIO_PIN_15
+#define IMU_MOSI_GPIO_Port GPIOB
+#define ADC1_CS_Pin GPIO_PIN_4
+#define ADC1_CS_GPIO_Port GPIOH
+#define BAT_MON_ADC_Pin GPIO_PIN_5
+#define BAT_MON_ADC_GPIO_Port GPIOA
+#define ADC_MOSI_Pin GPIO_PIN_11
+#define ADC_MOSI_GPIO_Port GPIOF
+#define ADC_MISO_Pin GPIO_PIN_7
+#define ADC_MISO_GPIO_Port GPIOH
+#define IMU_SCK_Pin GPIO_PIN_13
+#define IMU_SCK_GPIO_Port GPIOB
+#define IMU_MISO_Pin GPIO_PIN_14
+#define IMU_MISO_GPIO_Port GPIOB
 #define DEBUG_RX_OBC_Pin GPIO_PIN_7
 #define DEBUG_RX_OBC_GPIO_Port GPIOE
+#define ADC_SCK_Pin GPIO_PIN_6
+#define ADC_SCK_GPIO_Port GPIOH
+#define CS_MPU_Pin GPIO_PIN_10
+#define CS_MPU_GPIO_Port GPIOH
 
 /* USER CODE BEGIN Private defines */
+#define CS_SEL	0
+#define CS_DES	1
 
 /* USER CODE END Private defines */
 
